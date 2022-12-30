@@ -19,7 +19,7 @@ export function Groups() {
 
   return (
     <Container>
-      <Header showBackButton />
+      <Header showBackButton={false} />
       <Highlight title="Turmas" subtitle="Jogue com a sua turma" />
 
       <FlatList
