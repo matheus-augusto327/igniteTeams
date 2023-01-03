@@ -123,7 +123,7 @@ export function Players() {
           onSubmitEditing={handleAddPlayer}
           returnKeyType="done"
         />
-        <ButtonIcon icon="add" />
+        <ButtonIcon icon="add" onPress={handleAddPlayer} />
       </Form>
 
       <HeaderList>
